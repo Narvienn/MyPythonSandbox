@@ -13,6 +13,7 @@ options = ["rock", "paper", "scissors"]
 user1 = input("What's your name, Player 1?\n")
 user2 = input("What's your name, Player 2?\n")
 
+
 def rps(input_user1, input_user2):
     if (input_user1 == "rock" and input_user2 == "scissors") or (input_user1 == "scissors" and input_user2 == "paper") or (input_user1 == "paper" and input_user2 == "rock"):
         return input_user1
