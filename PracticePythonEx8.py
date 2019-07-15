@@ -22,7 +22,7 @@ def rps(input_user1, input_user2):
 
 
 def exit_check(user_input):
-    if user_input == "q":
+    if user_input == "quit":
         print("Thanks for playing!")
         sys.exit()
 
